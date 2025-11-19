@@ -1,0 +1,37 @@
+# =================================================================
+# == Core Libraries for Deep Learning and Transformers           ==
+# =================================================================
+# PyTorch: Framework principale per il deep learning.
+torch==2.8.0
+# Transformers: Libreria di Hugging Face per il modello Donut e il Trainer.
+transformers==4.28.1
+# Datasets: Libreria di Hugging Face per la gestione e il processing dei dati.
+datasets==4.1.1
+# Accelerate: Per ottimizzare l'esecuzione del training su diverse configurazioni hardware.
+accelerate==1.10.1
+
+# =================================================================
+# == Data Handling and Image Processing                          ==
+# =================================================================
+# Pillow (PIL): Per caricare e manipolare le immagini.
+pillow==11.3.0
+# NumPy: Per operazioni numeriche, specialmente con gli array.
+numpy==2.0.2
+# Python Dateutil: Per il parsing di date/ore nelle ground truth (JSON).
+python-dateutil==2.9.0.post0
+
+# =================================================================
+# == Tokenizer and Model Dependencies                            ==
+# =================================================================
+# SentencePiece: Dipendenza del tokenizer XLMRoberta usato da Donut.
+sentencepiece==0.2.1
+# Protobuf: Spesso richiesto da modelli più vecchi o specifici tokenizer.
+protobuf==3.20.3
+# Safetensors: Per un salvataggio e caricamento sicuro ed efficiente dei modelli.
+safetensors==0.6.2
+
+# =================================================================
+# == Utilities                                                   ==
+# =================================================================
+# TQDM: Per le barre di avanzamento durante il processing e il training.
+tqdm==4.67.1
